@@ -28,6 +28,14 @@ header p {
     margin-left: 10%;
 }
 
+#barra {
+    display: block;
+    background: blue;
+    height:2px;
+    width: 100%;
+    border-radius: 20px;
+}
+
 body{
     background-image: linear-gradient(to bottom, rgba(6, 1, 24), rgba(6, 1, 24, 0.9)), url(imagens/fundo.webp);
     background-size: cover;
@@ -44,4 +52,25 @@ main {
 
 main span {
     color: rgb(47, 85, 255);
+}
+
+main p {
+    padding: 10px 0px;
+}
+
+button{
+    height: 40px;
+    width: 120px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px rgb(1, 1, 134);
+    transition: 0.1s;
+}
+
+button:active{
+    box-shadow: none;
+    transform: translate(0px, 5px);
+
 }
